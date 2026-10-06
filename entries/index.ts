@@ -31,9 +31,9 @@ export const entries: Entry[] = [
     stageFullBleed: false,
     Stage: Stage001,
     notes: {
-      tried: '',
-      tricky: '',
-      next: '',
+      tried: 'Default line breaking versus word-break: keep-all for Korean and word-break: auto-phrase for Japanese. Drag the slider to watch words split on the left and stay whole on the right.',
+      tricky: 'auto-phrase only works when the text is marked lang="ja", and only in Chromium browsers. In Safari it falls back to default — the two Japanese boxes look identical.',
+      next: 'Let visitors type their own text.',
       ai: '',
     },
   },

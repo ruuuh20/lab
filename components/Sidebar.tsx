@@ -41,6 +41,9 @@ export default function Sidebar({ entries }: { entries: EntryMeta[] }) {
       {/* Desktop: sticky left column */}
       <aside className="hidden md:flex flex-col w-52 shrink-0 overflow-y-auto border-r border-border">
         <SidebarList entries={entries} />
+        <p className="px-4 py-4 mt-auto text-xs text-muted leading-relaxed">
+          Setup and scaffolding by AI; the core of each experiment is written by me.
+        </p>
       </aside>
 
       {/* Mobile: collapsible top bar */}
